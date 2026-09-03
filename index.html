@@ -588,6 +588,11 @@ section {
   margin-bottom: 1.75rem;
 }
 
+.sem-sublinhado {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* ---------- Footer ---------- */
 footer {
   position: relative;
@@ -645,11 +650,13 @@ footer a:hover {
     grid-template-columns: repeat(3, 1fr);
   }
 
+
   footer {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
+
 }
 </style>
 </head>
@@ -664,7 +671,7 @@ footer a:hover {
           <li><a href="#contact">Contato</a></li>
         </ul>
         <div class="navbar__actions">
-            <a href="Curriculo Guilherme Fernandes Luciano (3) (1).pdf" target="_blank" class="btn-primary">Currículo</a>
+            <a href="Curriculo Guilherme.docx" target="_blank" class="btn-primary">Currículo</a>
     </div>
     </nav>
 
@@ -698,27 +705,7 @@ footer a:hover {
   <h2 class="section-title">Meus Projetos</h2>
   <h3 class="section-subtitle">Todos no GitHub</h3>
 
-  <div class="projects-grid">
-    <div class="project-card">
-      <span class="project-card__tag">WEB</span>
-      <h3 class="project-card__title">Site de Programação</h3>
-      <p class="project-card__desc">Plataforma para aprender HTML, CSS e JavaScript.</p>
-      <div class="project-card__footer">
-        <span class="project-card__pill">HTML</span>
-        <span class="project-card__pill">CSS</span>
-        <span class="project-card__pill">JS</span>
-        </div>
-    </div>
-    <div class="project-card">
-      <span class="project-card__tag">WEB</span>
-      <h3 class="project-card__title">Tela de Login</h3>
-      <p class="project-card__desc">Tela de login para aplicação web.</p>
-      <div class="project-card__footer">
-        <span class="project-card__pill">Design</span>
-        <span class="project-card__pill">UI</span>
-      </div>
-    </div>
-
+  <a href="https://sjpii.vercel.app/" class="sem-sublinhado">
     <div class="project-card">
       <span class="project-card__tag">WEB</span>
       <h3 class="project-card__title">Site Católico</h3>
@@ -731,7 +718,9 @@ footer a:hover {
         <span class="project-card__pill">JS</span>
       </div>
     </div>
+  </a>
 
+    <a href="https://loja-verso-hjnh.vercel.app/" class="sem-sublinhado">
     <div class="project-card">
       <span class="project-card__tag">WEB</span>
       <h3 class="project-card__title">VERSO</h3>
@@ -744,6 +733,9 @@ footer a:hover {
         <span class="project-card__pill">JS</span>
       </div>
     </div>
+    </a>
+
+        <a href="https://cashtrack-five.vercel.app" class="sem-sublinhado">
     <div class="project-card">
       <span class="project-card__tag">WEB</span>
       <h3 class="project-card__title">Controle Financeiro</h3>
@@ -754,7 +746,7 @@ footer a:hover {
         <span class="project-card__pill">JavaScript</span>
       </div>
     </div>
-  
+        </a>
   </div>
 </section>
 
